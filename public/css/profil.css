@@ -1,0 +1,539 @@
+body{
+    overflow-x: hidden;
+}
+.NavbarIMG{
+    background-image: url(../../uploads/999.jpg);
+    background-color: transparent;
+    background-size: cover;
+    /*height: 830px;*/
+/*    background-color: black;
+    opacity: 0.8;*/
+    padding: 0 0 60px;
+}
+.loginRegister{
+    background: #111d27;
+    opacity: 0.8;
+      /*  background: rgb(0, 0, 0);*/
+}
+.GirisQeydiyyat li{
+    display: inline-block;
+    margin-top: 12px;
+    margin-left: 11px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fe5d4c;
+}
+.GirisQeydiyyat li a{
+    color: #fe5d4c;
+    text-decoration: none; 
+}
+.social li{
+    display: inline-block;
+    float: right;
+    margin: 10px;
+    font-size: 20px;
+}
+
+
+
+.social li a{
+    color: #fe5d4c;
+
+}
+
+
+
+/*//navbar*/
+.navbar{
+    height: 170px;
+}
+.navbar-toggle .icon-bar:nth-of-type(2) {
+    top: 1px;
+}
+
+.navbar-toggle .icon-bar:nth-of-type(3) {
+    top: 2px;
+}
+
+.navbar-toggle .icon-bar {
+    position: relative;
+    transition: all 500ms ease-in-out;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(1) {
+    top: 6px;
+    transform: rotate(45deg);
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(2) {
+    background-color: transparent;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(3) {
+    top: -6px;
+    transform: rotate(-45deg);
+}
+
+.navbarLogo img {
+    margin-right: 30px;
+    width: 50px;
+    margin-top: -10px;
+}
+
+.navbarLeft {
+    float: left;
+
+}
+.navbarLeft li a:hover{
+
+   background: transparent;
+   /*text-decoration: underline;*/
+   border-bottom: 3px solid #fe5d4c;
+   transition: 0.5s ease-out;
+}
+.navbarLeft li a{
+    color: white;
+    font-size: 20px;
+     font-weight: 600;
+  
+}
+.navbarRight {
+    float: right;
+}
+.icon-bar{
+    background-color:#fe5d4c !important;
+}
+
+
+
+
+.orange{
+     background:#fe5d4c;
+     height: 50px;
+    
+}
+
+.footer{
+    background: #0a1923;
+    height: 100px;
+    text-align: center;
+}
+
+.FoutureText p{
+color: white;
+padding-top:43px;
+}
+
+
+
+
+
+
+.profil{
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    background-color: #fff;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    padding: 10px;
+
+    background: #111d27;
+    opacity: 0.8;
+      /*  background: rgb(0, 0, 0);*/
+
+}
+
+.profilImgDiv{
+padding: 10px;
+}
+.profiImg{
+width: 100%;
+}
+
+.redakteIcon{
+  margin:0px;
+  padding: 0; 
+  color: #fe5d4c;
+}
+.redakteIcon i{
+  float: right;
+    // margin-top: 20px;
+    /*color: #274abb;*/
+    font-size: 27px;
+}
+.redakteIcon i:hover{
+  color: white;
+}
+.redakte{
+  top: 13px;
+  // height: 55px;
+  margin: 0 ;
+  padding: 0;
+  /*border: 1px solid #fe5d4c;*/ 
+}
+
+.profilinSahibi{
+  top: 13px;
+  // height: 55px;
+  margin: 0 ;
+  padding: 0;
+  /*border: 1px solid #fe5d4c;*/ 
+}
+.agentName{
+    color: #fe5d4c;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.adGunu{
+  top: 13px;
+  // height: 55px;
+  margin: 0 ;
+  padding: 0;
+ /* border: 1px solid white;*/ 
+  margin-top: 5px;
+
+}
+
+
+.agentDogumTarixi{
+  color: white;
+  margin-top: 5px;
+  float: left;
+  padding-right: 32px;
+  font-weight: 600;
+}
+.agentBD{
+    color: white;
+    font-size: 17px;
+    margin-top: 7px;
+}
+ .unvan{
+  top: 13px;
+  // height: 55px;
+  margin: 0 ;
+  padding: 0;
+  /*border: 1px solid white;*/
+  margin-top: 5px; 
+ }
+
+.agentUnvan{
+  color: white;
+  margin-top: 5px;
+  float: left;
+  padding-right: 80px;
+  font-weight: 600;
+}
+.agentAdress{
+ color: white;
+ margin-top: 5px;
+}
+
+.agentTehsil{
+  top: 13px;
+  // height: 55px;
+  margin: 0 ;
+  padding: 0;
+  /*border: 1px solid white; */
+  margin-top: 5px;
+}
+.tehsil{
+  color: white;
+  margin-top: 5px;
+  float: left;
+  padding-right: 84px;
+  font-weight: 600;
+}
+.agentUni{
+  color: white;
+  margin-top: 6px;
+}
+.AgentContact{
+  border-radius: 3px;
+  margin-top: 20px;
+    background: linear-gradient(to left,#fff 0%,#f7f7f7);
+}
+.agentNumber{
+  margin-left: 17px;
+    padding: 3px 0;
+
+}
+.agentNumber i , .agentMail i{
+  color:#fe5d4c;
+  font-size: 20px;
+    font-weight: 600;
+}
+.agentNumber a , .agentMail a{
+  color:black;
+  font-size: 15px;
+  text-decoration: none;
+}
+.number {
+  color: #909090;
+  font-size: 15px;
+}
+.number i{
+  padding: 5px 10px;
+}
+.agentMail{
+  margin-left: 17px;
+    padding: 3px 0;
+}
+.mail {
+  color: #909090;
+  font-size: 15px;
+}
+.mail i{
+  padding: 5px 10px;
+}
+.agentSocial{
+  margin-top: 30px;
+}
+.agentSocial li{
+    display: inline-block;
+    margin: 11px 0 6px 0;
+}
+.agentSocial ul{
+    padding: 0
+}
+.agentSocial li a{
+    padding-left:0;
+    padding-right: 15px;
+    font-size: 18px;
+    color: white;
+}
+.addAnnouncement{
+  background: #fe5d4c;
+  border-radius: 5px;
+  padding: 8px;
+  color: white;
+  margin-top: 30px;
+}
+/*.addAnnouncement:hover{
+  background: blue;
+}*/
+
+.addAnnouncement a{
+  color:white;
+  text-decoration: none; 
+  font-weight: 600;
+}
+
+@media screen and (max-width:350px){
+  
+  .agentName{
+    font-size: 19px;
+  }
+/*  // .number{
+  //  font-size: 12px;
+  // }
+  // .redakteIcon i{
+  //  margin-top: -30px;
+  // }
+  // .agentDogumTarixi{
+  //  float: none;
+  // }*/
+}
+@media screen and (max-width:330px){
+  
+  .mail{
+    font-size: 12px;
+  }
+  .number{
+    font-size: 12px;
+  }
+  .agentName{
+    font-size: 15px;
+  }
+  .agentDogumTarixi{
+    font-size: 15px;
+  }
+  .agentUnvan{
+    font-size: 15px;
+  }
+  .tehsil{
+    font-size: 15px;
+  }
+  /*// .redakteIcon i{
+  //  margin-top: -30px;
+  // }
+  // .agentDogumTarixi{
+  //  float: none;
+  // }*/
+}
+
+
+.elanlarinSiyahisi{
+  // height: 500px;
+      background: #111d27;
+    opacity: 0.8;
+      padding: 0 19px;
+  margin:0px;
+  // border: 1px solid blue;
+  // box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+.elanlarinSiyahisi h2{
+  color: #fe5d4c;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+.ElanSekil{
+width: 100%;
+height: auto;
+margin-top: 30px;
+}
+
+.yerlesdirdiyiElanlar{
+  // height: 500px;
+  padding:4px;
+  margin:0px;
+  border-bottom: 2px solid #F8F8F8;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.yerlesdiyiYer h3{
+  margin-top: 30px;
+  color: #fe5d4c;
+  font-weight: 600; 
+} 
+  
+
+.UnvaniHaqqindaMelumat{
+  font-size: 17px;
+    color: white;
+    font-family: serif;
+    margin: 3px 20px;
+   
+}
+.Unvan2{
+  color: #fe5d4c;
+  font-size: 25px;
+  float: left;
+
+} 
+
+
+.sahe_OtaqSayi{
+  background: #F8F8F8;
+  top:40px;
+  height: 80px; 
+      margin-bottom: 15px;
+}
+.sahe_OtaqSayi_reqemIle{
+top:30px; 
+}
+
+.Sahesi{
+  font-size: 17px;
+    color: black;
+    font-family: serif;
+    margin: 3px 20px;
+    float: left;
+    margin:0;
+    padding: 0;
+}
+.OtaqSayi{
+  font-size: 17px;
+    color: black;
+    font-family: serif;
+    margin: 3px 20px;
+    margin:0;
+    padding: 0;
+}
+.otaqsayiTop{
+  top: 20px;
+}
+.OtaqSayiH6{
+ /* margin-left: 65px;*/
+    font-size: 17px;
+    color: black;
+    font-family: serif;
+    margin: 0px 65px;
+   /* margin:0;*/
+    padding: 0;
+}
+.OtaqSayiH62{
+ /* margin-left: 65px;*/
+    font-size: 17px;
+    color: black;
+    font-family: serif;
+    margin: 0px 95px;
+   /* margin:0;*/
+    padding: 0;
+}
+.Sahibkar{
+  color: lightgrey;
+  font-size: 25px;
+  float: left;
+}
+
+.AdSoyad{
+  font-size: 17px;
+    color: grey;
+    font-family: serif;
+    margin: 5px 31px;
+   
+}
+
+.Tarix{
+  font-size: 17px;
+    color: grey;
+    font-family: serif;
+    margin: 5px 31px;
+}
+
+.YerlesdirdiyiElanlarOpaciti{
+   background: #111d27;
+    opacity: 0.8;
+    margin-top:25px;
+}
+
+
+
+
+
+
+
+
+.Melumat{
+     margin-top: 30px;
+    padding: 10px 0;
+    margin-bottom: 15px;
+
+}
+.Melumat h3{
+      font-size: 20px;
+     font-weight: 600; 
+}
+.qiymet{
+      color: #fe5d4c;
+}
+
+.EvYerlesdiyiYer{
+  color: white;
+}
+.EtrafliBax button{
+  background: none;
+    border: 2px solid #fe5d4c;
+   
+}
+.EtrafliBax button a{
+      color: white;
+    font-weight: 600;
+    font-size: 16px;
+   text-transform: uppercase;
+    line-height: 1;
+    display: inline-block;
+    padding: .75em .9375em;
+    text-decoration: none; 
+
+}

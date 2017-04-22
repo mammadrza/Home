@@ -1,0 +1,330 @@
+body{
+	overflow-x: hidden;
+}
+.NavbarIMG{
+	background-image: url(../../uploads/home-1.jpg);
+	background-color: transparent;
+	background-size: cover;
+    /*height: 830px;*/
+/*    background-color: black;
+    opacity: 0.8;*/
+    padding: 0 0 60px;
+     
+}
+.loginRegister{
+	background: #111d27;
+	opacity: 0.8;
+	  /*  background: rgb(0, 0, 0);*/
+}
+.GirisQeydiyyat li{
+    display: inline-block;
+    margin-top: 12px;
+    margin-left: 11px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fe5d4c;
+}
+.GirisQeydiyyat li a{
+	color: #fe5d4c;
+	text-decoration: none; 
+}
+.social li{
+	display: inline-block;
+	float: right;
+	margin: 10px;
+	font-size: 20px;
+}
+
+
+
+.social li a{
+	color: #fe5d4c;
+
+}
+
+
+
+/*//navbar*/
+.navbar{
+	height: 170px;
+}
+.navbar-toggle .icon-bar:nth-of-type(2) {
+    top: 1px;
+}
+
+.navbar-toggle .icon-bar:nth-of-type(3) {
+    top: 2px;
+}
+
+.navbar-toggle .icon-bar {
+    position: relative;
+    transition: all 500ms ease-in-out;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(1) {
+    top: 6px;
+    transform: rotate(45deg);
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(2) {
+    background-color: transparent;
+}
+
+.navbar-toggle.active .icon-bar:nth-of-type(3) {
+    top: -6px;
+    transform: rotate(-45deg);
+}
+
+.navbarLogo img {
+    margin-right: 30px;
+    width: 50px;
+    margin-top: -10px;
+}
+
+.navbarLeft {
+    float: left;
+
+}
+.navbarLeft li a:hover{
+
+   background: transparent;
+   /*text-decoration: underline;*/
+   border-bottom: 3px solid #fe5d4c;
+   transition: 0.5s ease-out;
+}
+.navbarLeft li a{
+	color: white;
+	font-size: 20px;
+	 font-weight: 600;
+  
+}
+.navbarRight {
+    float: right;
+}
+.icon-bar{
+	background-color:#fe5d4c !important;
+}
+
+
+/*Otaq yoldaşı axtar!*/
+
+.neseolacaqburda{
+	color: white;
+	text-align: center;
+	padding: 25px;
+}
+.Umumiaxtaris{
+	margin-top: 30px;
+}
+.search{
+	background: #111d27;
+	opacity: 0.8;
+	padding: 25px 0 50px 0;
+	/*height: 505px;*/
+}
+
+.searchText{
+	color: white;
+	font-weight: 600;
+	padding: 0px 30px;
+}
+.sel1 , .sel2 , .sel3{
+	color: white;
+}
+.form-group{
+	padding: 0 30px;
+}
+.qiymet , .otaqSayi{
+	padding: 0;
+}
+/*.otaqSayi{
+	margin-top: 8px;
+}*/
+.qiymetmax,.qiymetmin,.otaqSayimax,.otaqSayimin{
+	padding: 4px 2px;
+}
+/*.axtarisButtonu{
+	margin-top: 170px;
+}*/
+
+.axtar{
+	background: #fe5d4c;
+}
+.axtar a{
+	text-decoration: none; 
+	color: white;
+	font-size: 25px;
+	width: 100%;
+}
+.axtarisButtonu{
+	padding: 0px 33px;
+	/*margin-top: 10px;*/
+}
+
+/*.axtarisButtonu :hover{
+	background: white;
+	color: #fe5d4c;
+} 
+.axtarisButtonu a:hover{
+	color: #fe5d4c;
+}*/ 
+.YaddaSaxla{
+	margin-top: 15px;
+}
+
+.YaddaSaxla button{
+	background: none;
+    border: 2px solid #fe5d4c;
+   
+}
+.YaddaSaxla button a{
+	    color: white;
+    font-weight: 600;
+    font-size: 16px;
+   text-transform: uppercase;
+    line-height: 1;
+    display: inline-block;
+    padding: .75em .9375em;
+    text-decoration: none; 
+
+}
+
+
+/*//elanlar*/
+.Elanimg{
+	padding: 0;
+	margin: 0;
+	
+}
+.Elanimg img{
+	max-width: 100% !important;
+}
+
+
+
+
+
+
+
+
+
+
+/*.YaddaSaxla{
+	margin-top: 15px;
+}
+
+.YaddaSaxla button{
+	background: none;
+    border: 2px solid #fe5d4c;
+   
+}
+.YaddaSaxla button a{
+	    color: white;
+    font-weight: 600;
+    font-size: 16px;
+   text-transform: uppercase;
+    line-height: 1;
+    display: inline-block;
+    padding: .75em .9375em;
+    text-decoration: none; 
+
+}*/
+
+
+
+
+
+
+
+.PaddingMarginNol{
+	padding: 0;
+	margin: 0;
+	
+}
+
+.imgblock{
+	/*min-height:541px;*/
+	background: #0a1923;
+
+}
+/*.TwoCentrePhoto{
+	padding: 0;
+	margin: 0;
+}
+.LeftPhoto, .RightPhoto{
+	padding: 0;
+	margin: 0;
+}*/
+.img{
+	    position: relative;
+
+}
+
+.img::before{
+    content: '';
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom, rgba(11, 25, 35, 0) 0%, #0b1923 100%);
+    opacity: 1;
+    z-index: 1;
+    
+}
+div.img img {
+        max-width: 100% !important;
+}
+.Melumat{
+	padding: 20px;
+    margin: 0;
+    
+
+}
+.Melumat h3{
+	    font-size: 30px;
+	   font-weight: 600; 
+}
+.qiymet{
+	    color: #fe5d4c;
+}
+
+.EvYerlesdiyiYer{
+	color: white;
+}
+.EtrafliBax button{
+	background: none;
+    border: 2px solid #fe5d4c;
+   
+}
+.EtrafliBax button a{
+	    color: white;
+    font-weight: 600;
+    font-size: 16px;
+   text-transform: uppercase;
+    line-height: 1;
+    display: inline-block;
+    padding: .75em .9375em;
+    text-decoration: none; 
+
+}
+
+
+
+/*footer*/
+
+.orange{
+     background:#fe5d4c;
+     height: 50px;
+}
+
+.footer{
+    background: #0a1923;
+    height: 100px;
+    text-align: center;
+}
+
+.FoutureText p{
+color: white;
+padding-top:43px;
+}
