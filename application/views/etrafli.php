@@ -15,11 +15,11 @@
    
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
   
-    <link rel="stylesheet" type="text/css" href="<?= base_url() ?>public/css/etrafli.css">
+    <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>public/css/etrafli.css">
    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="<?= base_url() ?>public/js/javascript.js"></script>
+    <script type="text/javascript" src="<?= base_url(); ?>public/js/javascript.js"></script>
 </head>
-<body class="boodyy">
+<body style="padding: 0;margin: 0;">
 
 
 
@@ -65,9 +65,8 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                      <a class="navbar-brand navbarLogo" href="<?= base_url() ?>">
-
-                        <img src="<?=base_url() ?>uploads/home.png">
+                      <a class="navbar-brand navbarLogo" href="#">
+                        <img src="<?= base_url(); ?>uploads/home.png">
                       </a>
                 </div>
                 <div class="navbar-collapse collapse navbarLeft">
@@ -104,27 +103,27 @@
         <div class="carousel-inner">
       
         <div class="item active">
-          <img src="<?= base_url() ?>uploads/ev1.jpg">
+          <img src="<?= base_url(); ?>uploads/ev1.jpg">
         </div><!-- End Item -->
  
          <div class="item">
-          <img src="<?= base_url() ?>uploads/ev2.jpg">
+          <img src="<?= base_url(); ?>uploads/ev2.jpg">
         </div><!-- End Item -->
         
         <div class="item">
-          <img src="<?= base_url() ?>uploads/ev1.jpg">
+          <img src="<?= base_url(); ?>uploads/ev1.jpg">
         </div><!-- End Item -->
         
         <div class="item">
-          <img src="<?= base_url() ?>uploads/ev2.jpg">
+          <img src="<?= base_url(); ?>uploads/ev2.jpg">
         </div><!-- End Item -->
 
         <div class="item">
-          <img src="<?= base_url() ?>uploads/ev1.jpg">
+          <img src="<?= base_url(); ?>uploads/ev1.jpg">
         </div><!-- End Item -->
 
         <div class="item">
-          <img src="<?= base_url() ?>uploads/ev2.jpg">
+          <img src="<?= base_url(); ?>uploads/ev2.jpg">
         </div><!-- End Item -->
                 
         </div><!-- End Carousel Inner -->
@@ -135,12 +134,12 @@
       
 
       <ul class="nav nav-pills nav-justified slider">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"><a href="#"><img src="<?= base_url() ?>uploads/ev1.jpg"></a></li>
-          <li data-target="#myCarousel" data-slide-to="1"><a href="#"><img src="<?= base_url() ?>uploads/ev2.jpg"></a></li>
-          <li data-target="#myCarousel" data-slide-to="2"><a href="#"><img src="<?= base_url() ?>uploads/ev1.jpg"></a></li>
-          <li data-target="#myCarousel" data-slide-to="3"><a href="#"><img src="<?= base_url() ?>uploads/ev2.jpg"></a></li>
-          <li data-target="#myCarousel" data-slide-to="3"><a href="#"><img src="<?= base_url() ?>uploads/ev1.jpg"></a></li>
-          <li data-target="#myCarousel" data-slide-to="3"><a href="#"><img src="<?= base_url() ?>uploads/ev2.jpg"></a></li>
+          <li data-target="#myCarousel" data-slide-to="0" class="active"><a href="#"><img src="<?= base_url(); ?>uploads/ev1.jpg"></a></li>
+          <li data-target="#myCarousel" data-slide-to="1"><a href="#"><img src="<?= base_url(); ?>uploads/ev2.jpg"></a></li>
+          <li data-target="#myCarousel" data-slide-to="2"><a href="#"><img src="<?= base_url(); ?>uploads/ev1.jpg"></a></li>
+          <li data-target="#myCarousel" data-slide-to="3"><a href="#"><img src="<?= base_url(); ?>uploads/ev2.jpg"></a></li>
+          <li data-target="#myCarousel" data-slide-to="3"><a href="#"><img src="<?= base_url(); ?>uploads/ev1.jpg"></a></li>
+          <li data-target="#myCarousel" data-slide-to="3"><a href="#"><img src="<?= base_url(); ?>uploads/ev2.jpg"></a></li>
         </ul>
 
        </div>
@@ -171,7 +170,7 @@
          <div class="col-md-12 EvinSahibi paddingMargin1">
            <h1>Elanın Sahibi</h1>
            <div class="col-md-4">
-             <img src="<?= base_url() ?>uploads/g1.jpg">
+             <img src="<?= base_url(); ?>uploads/g1.jpg">
            </div>
            <div class="col-md-8">
              <div class="EvSahibininMelumatlari">
@@ -269,7 +268,7 @@
         <div class="col-md-12 paddingMargin1 SonElan1">
           <div class="col-md-6 SonElanlarImg">
             <div>
-              <img src="<?= base_url() ?>uploads/ev1.jpg">
+              <img src="<?= base_url(); ?>uploads/ev1.jpg">
             </div>
           </div>
           <div class="col-md-6 SonElanlarMelumatlari">
@@ -293,7 +292,7 @@
         <div class="col-md-12 paddingMargin1 SonElan2">
           <div class="col-md-6 SonElanlarImg">
             <div>
-              <img src="<?= base_url() ?>uploads/ev2.jpg">
+              <img src="<?= base_url(); ?>uploads/ev2.jpg">
             </div>
           </div>
           <div class="col-md-6 SonElanlarMelumatlari">
@@ -318,7 +317,7 @@
         <div class="col-md-12 paddingMargin1 SonElan3">
           <div class="col-md-6 SonElanlarImg">
             <div>
-              <img src="<?= base_url() ?>uploads/ev2.jpg">
+              <img src="<?= base_url(); ?>uploads/ev2.jpg">
             </div>
           </div>
           <div class="col-md-6 SonElanlarMelumatlari">
