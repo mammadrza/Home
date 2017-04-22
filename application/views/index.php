@@ -316,7 +316,7 @@
 
 
 
-<script src='<?= base_url(); ?>js/javascript.js'></script>
+<script src='<?= base_url(); ?>public/js/javascript.js'></script>
   </body>
 
 </html>

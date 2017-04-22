@@ -17,7 +17,7 @@
   
     <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>public/css/elanYerlesdir.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="js/file.js"></script>
+    <script type="text/javascript" src="<?= base_url(); ?>public/js/javascript.js"></script>
 </head>
 <body>
 
@@ -64,7 +64,7 @@
                         <span class="icon-bar"></span>
                     </button>
                       <a class="navbar-brand navbarLogo" href="#">
-                        <img src="<?= base_url(); ?>uploads/home.png">
+                        <img src="<?= base_url() ?>uploads/home.png">
                       </a>
                 </div>
                 <div class="navbar-collapse collapse navbarLeft">
