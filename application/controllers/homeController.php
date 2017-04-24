@@ -1,13 +1,7 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: hp nb
- * Date: 22.04.2017
- * Time: 15:40
- */
+
 
 class homeController extends CI_Controller{
-
 
     public function index(){
         $this->load->view('index');
@@ -37,5 +31,8 @@ class homeController extends CI_Controller{
         $this->load->view('etrafli');
     }
 
+    public function login(){
+        $this->load->view('giris');
+    }
 
 }

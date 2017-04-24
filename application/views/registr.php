@@ -15,9 +15,9 @@
    
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
   
-    <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>public/css/registrGiris.css">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('public/css/registrGiris.css'); ?>">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="<?= base_url(); ?>public/js/javascript.js"></script>
+    <script type="text/javascript" src="<?= base_url('public/js/javascript.js'); ?>"></script>
  
 
 
@@ -31,8 +31,8 @@
     <div class="row">
       <div class="col-md-8 GirisQeydiyyat">
         <ul>
-          <li class=""><a href="#">Giris</a></li>
-          <li class=""><a href="#">Qeydiyyat</a></li>
+          <li class=""><a href="<?php base_url('loginController') ?>">Giris</a></li>
+          <li class=""><a href="<?php base_url('registrController') ?>">Qeydiyyat</a></li>
         </ul>
       </div>
       <div class="col-md-4 social">
@@ -67,7 +67,7 @@
                         <span class="icon-bar"></span>
                     </button>
                       <a class="navbar-brand navbarLogo" href="#">
-                        <img src="<?= base_url(); ?>uploads/home.png">
+                        <img src="<?= base_url('uploads/home.png'); ?>">
                       </a>
                 </div>
                 <div class="navbar-collapse collapse navbarLeft">
@@ -97,28 +97,31 @@
                <div class="input-group-addon">
                <span class="glyphicon glyphicon-user"></span>
                </div>
-               <input class="form-control" id="username" name="username" type="text" placeholder="Ad">
+               <input class="form-control" id="username" name="regUserName" type="text" placeholder="Ad">
           </div>
+
           <!-- <span class="text">Soyadı:</span> -->
           <div class="input-group araMesafesi">
                <div class="input-group-addon">
                <span class="glyphicon glyphicon-user"></span>
                </div>
-               <input class="form-control" id="surname" name="surname" type="text" placeholder="Soyad">
+               <input class="form-control" id="surname" name="regSurname" type="text" placeholder="Soyad">
           </div>
+
           <!-- <span class="text">Şifrə:</span> -->
           <div class="input-group araMesafesi">
                <div class="input-group-addon">
                <span class="glyphicon glyphicon-lock"></span>
                </div>
-               <input class="form-control" id="password" name="password" type="password" placeholder="Şifrə">
+               <input class="form-control" id="password" name="regPassword" type="password" placeholder="Şifrə">
           </div>
+
           <!-- <span class="text">Mobil nömrə:</span> -->
 
           <div class="input-group araMesafesi">
                <div class="input-group-addon">
                <span class="glyphicon glyphicon-earphone " ><span class="black">&nbsp;&nbsp;+</span><span class="helli">994</span> </span>
-               <select id="operator-numbers" name="operator-numbers">
+               <select id="operator-numbers" name="regOperator-numbers">
                                 <option>55</option>
                                 <option>51</option>
                                 <option>50</option>
@@ -126,7 +129,7 @@
                                 <option>77</option>
                           </select>
           </div>
-               <input class="form-control" id="phone_number" name="phone_number" type="number" placeholder="Mobil nömrə" maxlength="7">
+               <input class="form-control" id="phone_number" name="regPhone_number" type="number" placeholder="Mobil nömrə" maxlength="7">
 
           </div>
 
@@ -135,7 +138,7 @@
                <div class="input-group-addon">
                <span class="glyphicon glyphicon-envelope"></span>
                </div>
-               <input class="form-control" id="email" name="email" type="email" placeholder="E-poçt ünvanı">
+               <input class="form-control" id="email" name="regEmail" type="email" placeholder="E-poçt ünvanı">
             </div>
 
 
@@ -144,7 +147,7 @@
                <div class="input-group-addon">
                <span class="glyphicon glyphicon-lock"></span>
                </div>
-               <input class="form-control" id="birthday" name="birthday" type="date" placeholder="Doğum tarixi">
+               <input class="form-control" id="birthday" name="regBirthday" type="date" placeholder="Doğum tarixi">
             </div>
           <!-- <button type="button" class="btn btn-secondary btn1">Yadda saxla</button> -->
             <div class="YaddaSaxla">

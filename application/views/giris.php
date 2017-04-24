@@ -15,9 +15,9 @@
    
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
   
-    <link rel="stylesheet" type="text/css" href="css/registrGiris.css">
+    <link rel="stylesheet" type="text/css" href="<?= base_url(); ?>public/css/registrGiris.css">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="js/file.js"></script>
+    <script type="text/javascript" src="<?= base_url(); ?>public/js/javascript.js"></script>
  
 
 
@@ -67,7 +67,7 @@
                         <span class="icon-bar"></span>
                     </button>
                       <a class="navbar-brand navbarLogo" href="#">
-                        <img src="images/home.png">
+                        <img src="<?= base_url('uploads/home.png'); ?>">
                       </a>
                 </div>
                 <div class="navbar-collapse collapse navbarLeft">
@@ -91,7 +91,9 @@
     <div class="col-md-4 ">
       <div class="col-md-12 search">
         <h1 class="searchText">Giriş et</h1>
-        <form class="form-group">
+
+
+        <form action="<?= base_url("loginController/update")?>" method="post" class="form-group" >
 
 
 
@@ -100,7 +102,9 @@
                <div class="input-group-addon">
                <span class="glyphicon glyphicon-envelope"></span>
                </div>
-               <input class="form-control" id="email" name="email" type="email" placeholder="E-poçt ünvanı">
+
+
+               <input class="form-control" id="email" name="user_email" type="email" placeholder="E-poçt ünvanı">
             </div>
 
           <!-- <span class="text">Şifrə:</span> -->
@@ -108,12 +112,12 @@
                <div class="input-group-addon">
                <span class="glyphicon glyphicon-lock"></span>
                </div>
-               <input class="form-control" id="password" name="password" type="password" placeholder="Şifrə">
+               <input class="form-control" id="password" name="user_pass" type="password" placeholder="Şifrə">
           </div>
            <!-- <button type="button" class="btn btn-secondary btn1">Yadda saxla</button> -->
             <div class="YaddaSaxla">
-              <button>
-                <a href="">Daxil ol</a>
+              <button type="submit">
+                Daxil ol
               </button>
             </div>
 
@@ -139,7 +143,7 @@
 </section>
 
 
-<script src='js/javascript.js'></script>
+<!--<script src='js/javascript.js'></script>-->
   </body>
 
 </html>
